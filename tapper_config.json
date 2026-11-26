@@ -1,0 +1,55 @@
+{
+  "port": "auto",
+  "baud": 115200,
+  "boot_wait_seconds": 3.2,
+  "service_host": "127.0.0.1",
+  "service_port": 8768,
+  "pen_mode": "z",
+  "pen_down_cmd": "M3 S1000",
+  "pen_up_cmd": "M5",
+  "z_down": 0.0,
+  "z_rest_coordinate": 7.0,
+  "z_release_settle_seconds": 0.35,
+  "screen_w_mm": 68.0,
+  "screen_h_mm": 152.0,
+  "park_after_action": true,
+  "camera_park_xy_mm": [
+    40.0,
+    100.0
+  ],
+  "camera_park_radius_mm": 145.0,
+  "camera_clear_settle_seconds": 0.1,
+  "preorigin_jog_radius_mm": 30.0,
+  "screen_x0_mm": 0.0,
+  "screen_y0_mm": 0.0,
+  "screen_margin_px": 12,
+  "dwell_ms": 120,
+  "jog_feed": 3000,
+  "camera_library_path": "",
+  "camera_index": 0,
+  "camera_width": 1280,
+  "camera_height": 720,
+  "camera_rotate_clockwise": true,
+  "affine": null,
+  "screen_css_w": 0,
+  "screen_css_h": 0,
+  "calibration_points": 0,
+  "calibration_max_error_px": null,
+  "jog_limit_radius_mm": 205.0,
+  "max_screen_radius_mm": 120.0,
+  "z_contact_map": [
+    {
+      "z_rest_mm": 7.0,
+      "v": 0.5,
+      "u": 0.5
+    }
+  ],
+  "z_down_feed": 1200,
+  "z_contact_margin_mm": 0.2,
+  "camera_park_candidates_xy_mm": [
+    [
+      40.0,
+      100.0
+    ]
+  ]
+}

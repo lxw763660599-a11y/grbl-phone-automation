@@ -1,0 +1,18 @@
+# Core runtime
+pyserial>=3.5
+opencv-python>=4.8
+numpy>=1.24
+PyYAML>=6.0
+Pillow>=10.0
+
+# Local MCP server (Streamable HTTP / stdio)
+mcp>=2.3.0
+mcp-types>=2.3.0
+pydantic>=2.5
+uvicorn>=0.23
+
+# Optional: enumerate DirectShow camera names so iVCam can be preferred
+pygrabber>=0.2; sys_platform == "win32"
+
+# Packaging (uncomment when building the portable edition)
+# pyinstaller>=6.0

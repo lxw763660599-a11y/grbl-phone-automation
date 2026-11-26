@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Build & portable output
+build/
+dist/
+*.spec.bak
+
+# Local runtime state
+workflow_runs/
+grbl_service*.log
+phone_mcp_service.log
+session_latest_*.*
+TouchLog.jsonl
+last_audio.npy
+
+# Local calibration snapshots and config backups
+tapper_config.json.before-*
+speed_*.json
+speed_*.jpg
+
+# Screenshots and probe frames
+*.jpg
+*.jpeg
+*.png
+!docs/**/*.png
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
