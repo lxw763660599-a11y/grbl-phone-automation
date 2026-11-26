@@ -188,6 +188,13 @@ No ADB, no accessibility service, no root, works on Android and iOS alike. The t
 
 Windows only; requires a GRBL plotter, a camera over the phone, and manual re-zeroing after every power cycle.
 
+## 联系与反馈
+
+- Instagram：[liyuai68](https://www.instagram.com/liyuai68/)
+- 抖音：李玉ai
+
+有问题欢迎在 Issues 里提，也可以直接私信。
+
 ## License
 
 MIT
