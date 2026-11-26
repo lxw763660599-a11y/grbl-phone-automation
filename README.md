@@ -1,10 +1,11 @@
-# BtWriter Phone
+# GRBL Phone Automation
 
 用一台 GRBL 写字机的笔尖去点手机屏幕，摄像头做闭环确认，本机 HTTP / MCP 接口给 AI 调用。
 
 不装 App、不开 ADB、不需要 root，也不受 iOS 限制——物理触控，系统界面、任何 App 都能点。
 
 > Windows 专用（tkinter 控制台、CH340 串口、DirectShow/MSMF 摄像头）。
+> 项目最初在一台固件名为 `BtWriter` 的写字机上开发，因此源码与便携版程序保留了 `BtWriter` 前缀。
 
 ## 为什么这样做
 
@@ -46,7 +47,7 @@
 ## 快速开始
 
 ```powershell
-git clone https://github.com/lxw763660599-a11y/btwriter-phone.git
+git clone https://github.com/lxw763660599-a11y/grbl-phone-automation.git
 cd btwriter-phone
 python -m venv .venv
 .venv\Scripts\activate
